@@ -18,7 +18,9 @@ jobs:
       - name: Build and push Docker image
         uses: docker/build-push-action@v2
         with:
-          context: ./.github
-          file: .github/dockerfile
+          context: .
+          # context: ./.github
+          file: dockerfile
+          # file: .github/dockerfile
           push: true
           tags: ilhangursoy/abhishek2:test22
