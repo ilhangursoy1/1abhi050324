@@ -23,4 +23,6 @@ jobs:
           file: dockerfile
           # file: .github/dockerfile
           push: true
-          tags: ilhangursoy/abhishek2:test22
+          tags: ilhangursoy/1abhi050324:1abhi050324
+          # tags: ilhangursoy/abhishek2:test22
+          
